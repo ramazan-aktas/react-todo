@@ -17,7 +17,6 @@ function Form({ addEntry }) {
     if (todo.entry.trim()) {
       addEntry({ ...todo, id: uuid() });
       setTodo({ ...todo, entry: "" });
-    } else {
     }
   };
 

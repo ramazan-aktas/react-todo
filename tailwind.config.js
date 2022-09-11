@@ -4,8 +4,6 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        scp: ["Source Code Pro", "monospace"],
-        mont: ["Montserrat", "sans-serif"],
         quick: ["Quicksand", "sans-serif"],
       },
     },
